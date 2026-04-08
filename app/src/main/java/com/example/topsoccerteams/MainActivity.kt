@@ -11,9 +11,9 @@ class MainActivity : AppCompatActivity() {
     //Teams from http://footballdatabase.com/ranking/south-africa/1
     //retrieved on 08/04/2026
 
-    val teams = arrayOf<String>("Memelodi Sundowns FC", "Orlando Pirates", "Bidvest Wits",
-        "Stellenbosch FC", "Sekhukhune United FC")
-    
+    val teams = arrayOf<String>("Memelodi Sundowns FC", "Orlando Pirates",
+        "Bidvest Wits", "Stellenbosch FC", "Sekhukhune United FC")
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
